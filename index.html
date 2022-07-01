@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pr">
+  <head>
+    <title>alireza</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/356f5d90fd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootrstrap 4 -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <!-- bootrstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body dir="rtl" class="bg-white">
+<!-- header -->
+<header class="container-fluid p-0 m-0">
+  <nav class="navbar navbar-expand-lg bg-white p-0 m-0">
+    <div class="container-fluid p-0">
+      <a class="navbar-brand" href="#"><img src="	https://demo.hamyarwp.com/dentist-clinic/wp-content/uploads/2021/04/dental-site-logo.svg" class="img-fluid" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="all-btn">
+          <div class="menu-btn-1" onclick="menuBtnFunction(this)">
+              <span></span>
+          </div>
+        </div>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 d-flex justify-content-center">
+          <li class="nav-item me-0 me-xl-3 pe-xl-0">
+            <a class="nav-link pe-3 active" aria-current="page" href="#">خانه</a>
+          </li>
+          <li class="nav-item me-0 me-xl-3 pe-xl-0">
+            <a class="nav-link pe-3" href="#sabtemoshavere">ثبت مشاوره</a>
+          </li>
+          <li class="nav-item me-0 me-xl-3 pe-xl-0">
+            <a class="nav-link pe-3" href="#darbarema">درباره ما</a>
+          </li>
+          <li class="nav-item me-0 me-xl-3 pe-xl-0">
+            <a class="nav-link pe-3" aria-current="page" href="#khadamatema">خدمات ما</a>
+          </li>
+          <li class="nav-item me-0 me-xl-3 pe-xl-0">
+            <a class="nav-link pe-3" href="#rezayat">رضایت مشتریان</a>
+          </li>
+          <li class="nav-item me-0 me-xl-3 pe-xl-0">
+            <a class="nav-link pe-3" href="#we">تماس با ما</a>
+          </li>
+          <li class="nav-item me-0 me-xl-3 pe-xl-0">
+            <a class="nav-link pe-3" href="#we">وبلاگ</a>
+          </li>
+          <li class="nav-item me-3 pe-xl-0 lastitem pt-2 py-2 pt-xl-0">
+            <a class="nav-link py-2" href="#">همیار وردپرس</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- section 1 -->
+<div class="container-fluid p-0" style="background-image: url('https://demo.hamyarwp.com/dentist-clinic/wp-content/uploads/2020/03/banner-image.jpg'); background-repeat: no-repeat; background-size: cover;">
+  <div class="container-fluid" style="background-image: linear-gradient(-90deg, rgba(1, 87, 140,80%) , 70%, rgba(62, 211, 214,80%)  -30%);">
+    <div class="row h-100">
+      <div class="col-12 col-xl-7 d-flex flex-column justify-content-center align-items-center align-items-xl-start align-self-start matnofsection1">
+      <h5 class="text-white fw-bold w-75 text-center text-xl-end">سلامت دهان و دندان شما برای ما اهمیت دارد</h5>
+      <hr class="short-line my-3">
+      <h1 class="w-75 beauty text-center text-xl-end">
+        لبخند زیبایی را از بهترین دندان پزشکان تهران دریافت کنید
+      </h1>
+      </div>
+      <div class="col-12 col-xl-5">
+        <div class="card d-flex flex-column justify-content-center align-items-center p-3 p-xl-5" style="border-radius:15px !important; margin: 60px 0px 60px 0px !important;">
+          <h5 class="fw-bold">ثبت یک مشاوره رایگان</h5>
+          <hr style="width: 100px;">
+     <div class="container-fluid m-0 p-0">
+      <div class="row">
+        <div class="col-6 my-2">
+          <input type="text" class="text bg-light w-100 p-2" placeholder="نام">
+        </div>
+        <div class="col-6 my-2">
+          <input type="text" class="text bg-light w-100 p-2" placeholder="نام خانوادگی">
+        </div>
+        <div class="col-12 my-2">
+          <input type="text" class="text bg-light w-100 p-2" placeholder="شماره تماس">
+        </div>
+        <div class="col-12 my-2">
+          <input type="text" class="text bg-light w-100 p-2" placeholder="ایمیل">
+        </div>
+        <div class="col-12 my-2">
+          <textarea name="" class="p-2 bg-light text" id="" cols="61" rows="5" placeholder="پیام شما"></textarea>
+        </div>
+        <div class="col-12 lastitem my-2">
+          <a class="nav-link py-2" href="#">ثبت مشاوره</a>
+        </div>
+      </div>
+     </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- section 2 -->
+<div class="container-fluid">
+  <div class="row row300 align-items-center justify-content-between" id="darbarema" style="margin-top: 70px; margin-bottom: 300px;">
+    <div class="col-12 col-xl-5 position-relative">
+      <img src="https://demo.hamyarwp.com/dentist-clinic/wp-content/uploads/2020/03/home-dentist-img-02.jpg" alt="" class="img-fluid m-0 mxl-4 bg-warning dentistoneimage">
+      <div class="boxofdentistimage">
+        <img src="https://demo.hamyarwp.com/dentist-clinic/wp-content/uploads/2020/03/docter.jpg" alt="" class="img-fluid m-4 dentisttwoimage">
+      </div>
+    </div>
+    <div class="col-12 col-xl-7 twoparagraph d-flex flex-column justify-content-evenly align-items-center align-items-xl-start px-5">
+      <h1 class="fw-bold">همواره کنار شما هستیم</h1>
+      <hr style="width: 100px;" class="py-2">
+      <p class="paragraph text-center text-xl-end">لورم ايپسوم متن ساختگی با توليد سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافيک است</p>
+      <p class="paragraph text-center text-xl-end">لورم ايپسوم متن ساختگی با توليد سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافيک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+      <a href="" class="d-flex justify-content-center align-items-center text-decoration-none doubbleleft my-2">
+        <span class="mx-2">اطلاعات بیشتر</span>
+        <i class="bi bi-chevron-double-left"></i>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- section 3 -->
+<div class="container-fluid p-5">
+  <div class="row" id="sabtemoshavere" style="border-radius: 22px; background-color: #01578C; height: 250px !important; box-shadow: 0px 0px 20px 0px #01578C;">
+    <div class="col-12 col-xl-7 d-flex flex-column justify-content-center align-items-center">
+      <h3 class="fw-bold text-white text-center text-xl-end">برای مشاوره رایگان با ما تماس بگیرید</h3>
+      <p class="text-center text-xl-end my-2" style="color: rgb(192, 192, 192);">لورم ايپسوم متن ساختگی با توليد سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان</p>
+    </div>
+    <div class="col-12 col-xl-5 d-flex align-items-center">
+      <div class="w-100 lastitem lastitem2 d-flex justify-content-center  my-1">
+        <a class="nav-link py-2 px-2" href="#">تماس : 1800 456 789</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- section 4 -->
+<div class="container-fluid my-5">
+  <div class="row" id="khadamatema">
+    <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+      <h1 class="fw-bold">خدمات ما</h1>
+      <hr width="70px" class="my-3">
+      <p class="text-center my-2 khadamat" style="width: 56%; font-size: 18px; color: rgb(134, 134, 134);">لورم ايپسوم متن ساختگی با توليد سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافيک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+    </div>
+  </div>
+</div>
+<!-- section 5 -->
+<div class="container section5">
+  <div class="row g-4">
+    <div class="col-12 col-xl-4">
+      <div class="card d-flex flex-column align-items-center justify-content-evenly colcard">
+        <img src="https://demo.hamyarwp.com/dentist-clinic/wp-content/uploads/2020/03/icon01-free-img.png" alt="" class="img-fluid my-3 dentimg">
+        <h5 class="my-2 fw-bold"> ایمپلنت های دندانی</h5>
+        <p class="text-center my-3 w-75" style="color: rgb(134, 134, 134);">لورم ايپسوم متن ساختگی با توليد سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافيک است.</p>
+      </div>
+    </div>
+    <div class="col-12 col-xl-4">
+      <div class="card d-flex flex-column align-items-center justify-content-evenly colcard">
+        <img src="https://demo.hamyarwp.com/dentist-clinic/wp-content/uploads/2020/03/icon02-free-img.png" alt="" class="img-fluid my-3 dentimg">
+        <h5 class="my-2 fw-bold">زیبایی دندان</h5>
+        <p class="text-center my-3 w-75" style="color: rgb(134, 134, 134);">لورم ايپسوم متن ساختگی با توليد سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافيک است.</p>
+      </div>
+    </div>
+    <div class="col-12 col-xl-4">
+      <div class="card d-flex flex-column align-items-center justify-content-evenly colcard">
+        <img src="https://demo.hamyarwp.com/dentist-clinic/wp-content/uploads/2020/03/icon03-free-img.png" alt="" class="img-fluid my-3 dentimg">
+        <h5 class="my-2 fw-bold">ریشه درمانی</h5>
+        <p class="text-center my-3 w-75" style="color: rgb(134, 134, 134);">لورم ايپسوم متن ساختگی با توليد سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافيک است.</p>
+      </div>
+    </div>
+    <div class="col-12 col-xl-4">
+      <div class="card d-flex flex-column align-items-center justify-content-evenly colcard">
+        <img src="https://demo.hamyarwp.com/dentist-clinic/wp-content/uploads/2020/03/icon04-free-img.png" alt="" class="img-fluid my-3 dentimg">
+        <h5 class="my-2 fw-bold">سفید کردن دندان ها</h5>
+        <p class="text-center my-3 w-75" style="color: rgb(134, 134, 134);">لورم ايپسوم متن ساختگی با توليد سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافيک است.</p>
+      </div>
+    </div>
+    <div class="col-12 col-xl-4">
+      <div class="card d-flex flex-column align-items-center justify-content-evenly colcard">
+        <img src="https://demo.hamyarwp.com/dentist-clinic/wp-content/uploads/2020/03/icon05-free-img.png" alt="" class="img-fluid my-3 dentimg">
+        <h5 class="my-2 fw-bold">کشیدن دندان</h5>
+        <p class="text-center my-3 w-75" style="color: rgb(134, 134, 134);">لورم ايپسوم متن ساختگی با توليد سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافيک است.</p>
+      </div>
+    </div>
+    <div class="col-12 col-xl-4">
+      <div class="card d-flex flex-column align-items-center justify-content-evenly colcard">
+        <img src="	https://demo.hamyarwp.com/dentist-clinic/wp-content/uploads/2020/03/icon06-free-img.png" alt="" class="img-fluid my-3 dentimg">
+        <h5 class="my-2 fw-bold">مراقبت های دندان</h5>
+        <p class="text-center my-3 w-75" style="color: rgb(134, 134, 134);">لورم ايپسوم متن ساختگی با توليد سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافيک است.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- section 6 -->
+<div class="container-fluid section6">
+  <div class="container">
+    <div class="row" id="rezayat">
+      <div class="col-12 d-flex flex-column align-items-center justify-content-evenly">
+        <h1 class="fw-bold my-5 mb-4">رضایت مشتریان</h1>
+        <hr width="110px" class="mb-5 mt-1">
+      </div>
+    </div>
+    <div class="row g-5">
+      <div class="col-12 col-xl-6">
+        <div class="card d-flex flex-column align-items-center justify-content-start border-0 cardofidea h-100 py-5 px-4">
+          <img src="https://demo.hamyarwp.com/dentist-clinic/wp-content/uploads/2020/03/team-member01.jpg">
+          <div class="d-flex flex-column align-items-center justify-content-center">
+            <p class="text-end my-3 pa" style="color: rgb(134, 134, 134);">لورم ايپسوم متن ساختگی با توليد سادگی نامفهوم صنعت چاپ و با استفاده از طراحان گرافيک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.</p>
+            <h5 class="my-2 fw-bold">مهتاب محمدی</h5>
+            <div class="d-flex my-3">
+              <i class="bi bi-star-fill" style="color:rgb(255, 230, 0); font-size: 19px;"></i>
+              <i class="bi bi-star-fill" style="color:rgb(255, 230, 0); font-size: 19px;"></i>
+              <i class="bi bi-star-fill" style="color:rgb(255, 230, 0); font-size: 19px;"></i>
+              <i class="bi bi-star-fill" style="color:rgb(255, 230, 0); font-size: 19px;"></i>
+              <i class="bi bi-star-fill" style="color:rgb(255, 230, 0); font-size: 19px;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-xl-6">
+        <div class="row g-4">
+          <div class="col-12">
+            <div class="card d-flex flex-column flex-xl-row align-items-center justify-content-start border-0 cardofidea py-5 py-xl-0 px-4">
+              <img src="https://demo.hamyarwp.com/dentist-clinic/wp-content/uploads/2020/03/team-member02.jpg" class="mx-0 mx-xl-4">
+              <div class="d-flex flex-column align-items-center justify-content-center">
+                <p class="text-end my-3" style="color: rgb(134, 134, 134);">لورم ايپسوم متن ساختگی با توليد سادگی نامفهوم صنعت چاپ و با استفاده از طراحان گرافيک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.</p>
+                <h5 class="my-2 fw-bold align-self-xl-start me-0 ">الناز میرزایی</h5>
+                <div class="d-flex my-3 align-self-xl-start me-0">
+                  <i class="bi bi-star-fill" style="color:rgb(255, 230, 0); font-size: 19px;"></i>
+                  <i class="bi bi-star-fill" style="color:rgb(255, 230, 0); font-size: 19px;"></i>
+                  <i class="bi bi-star-fill" style="color:rgb(255, 230, 0); font-size: 19px;"></i>
+                  <i class="bi bi-star-fill" style="color:rgb(255, 230, 0); font-size: 19px;"></i>
+                  <i class="bi bi-star-fill" style="color:rgb(255, 230, 0); font-size: 19px;"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="card d-flex flex-column flex-xl-row align-items-center justify-content-start border-0 cardofidea py-5 py-xl-0 px-4">
+              <img src="https://demo.hamyarwp.com/dentist-clinic/wp-content/uploads/2020/03/team-member03-300x300.jpg" class="mx-0 mx-xl-4">
+              <div class="d-flex flex-column align-items-center justify-content-center">
+                <p class="text-end my-3" style="color: rgb(134, 134, 134);">لورم ايپسوم متن ساختگی با توليد سادگی نامفهوم صنعت چاپ و با استفاده از طراحان گرافيک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.</p>
+                <h5 class="my-2 fw-bold align-self-xl-start me-0 ">نوید رستم نژاد</h5>
+                <div class="d-flex my-3 align-self-xl-start me-0">
+                  <i class="bi bi-star-fill" style="color:rgb(255, 230, 0); font-size: 19px;"></i>
+                  <i class="bi bi-star-fill" style="color:rgb(255, 230, 0); font-size: 19px;"></i>
+                  <i class="bi bi-star-fill" style="color:rgb(255, 230, 0); font-size: 19px;"></i>
+                  <i class="bi bi-star-fill" style="color:rgb(255, 230, 0); font-size: 19px;"></i>
+                  <i class="bi bi-star-fill" style="color:rgb(255, 230, 0); font-size: 19px;"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 d-flex flex-column align-items-center justify-content-evenly">
+        <h3 class="fw-bold my-5 mb-4">رضایت مشتریان</h3>
+        <hr width="100px" class="mb-5 mt-1">
+        <div class="d-flex align-items-center justify-content-between icons">
+          <a href="https:\\google.com" target="_blank" class="mx-2"><i class="bi bi-google"></i></a>
+          <a href="https:\\instagram.com" target="_blank" class="mx-2"><i class="bi bi-instagram"></i></a>
+          <a href="https:\\youtube.com" target="_blank" class="mx-2"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- section 7 -->
+<div class="container-fluid section7">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-12 d-flex flex-column justify-content-between align-items-center">
+      <h1 class="fw-bold my-5 mb-4 text-center">لبخند زیبا را با کمترین قیمت دریافت کنید</h1>
+      <hr width="90px" class="mb-2 mt-1">
+      <p class="text-center my-3 w-50" style="color: rgb(134, 134, 134);">لورم ايپسوم متن ساختگی با توليد سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافيک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+      <a href="" class="d-flex justify-content-center align-items-center text-decoration-none doubbleleft my-2">
+        <span class="mx-2">اطلاعات بیشتر</span>
+      </a>
+    </div>
+  </div>
+</div>
+<!--  footer -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" class="d-block d-xl-none" style="transform: rotate(180deg); fill: #F6F9F9;">
+  <path class="elementor-shape-fill" d="M0,6V0h1000v100L0,6z"></path>
+  </svg>
+<div class="container-fluid py-4 pt-5 pt-xl-4 footer">
+  <div class="row" id="we">
+    <div class="col-12"> 
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6478.360245863872!2d51.336684732818625!3d35.7217884206613!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e00491ff3dcd9%3A0xf0b3697c567024bc!2sTehran%2C%20Tehran%20Province%2C%20Iran!5e0!3m2!1sen!2sus!4v1654865806639!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="width:100%; height: 400px;" class="map"></iframe>
+    </div>
+  </div>
+  <div class="row py-5 justify-content-evenly align-items-baseline">
+    <div class="col-12 col-xl-2 d-flex align-items-center justify-content-center">
+      <img src="	https://demo.hamyarwp.com/dentist-clinic/wp-content/uploads/2021/04/dental-site-logo.svg" class="img-fluid logo mb-4 mb-xl-0" alt="" style="transform:translateY(20px)">
+    </div>
+    <div class="col-12 col-xl-2 d-flex flex-column justify-content-around align-items-center mt-4 mt-xl-0">
+      <h4 class="my-2 my-xl-4">تماس با ما</h4>
+      <p class="text-center my-1" style="color: rgb(134, 134, 134);">1800 456 789</p>
+      <p class="text-center my-1" style="color: rgb(134, 134, 134);">1800 456 780</p>
+    </div>
+    <div class="col-12 col-xl-2 d-flex flex-column justify-content-around align-items-center mt-4 mt-xl-0">
+      <h4 class="my-2 my-xl-4">آدرس ما</h4>
+      <p class="text-center my-1" style="color: rgb(134, 134, 134);">تهران ، همیار وردپرس</p>
+    </div>
+    <div class="col-12 col-xl-2 d-flex flex-column justify-content-around align-items-center mt-4 mt-xl-0">
+      <h4 class="my-2 my-xl-4">ساعت کاری</h4>
+      <p class="text-center my-1" style="color: rgb(134, 134, 134);">شنبه : 09:00 – 19:00</p>
+      <p class="text-center my-1" style="color: rgb(134, 134, 134);">دوشنبه :  10:00 – 14:00</p>
+    </div>
+    <div class="col-12 col-xl-4 d-flex flex-column justify-content-around align-items-center mt-4 mt-xl-0">
+      <h4 class="my-3 my-xl-4">ما را دنبال کنید</h4>
+      <div class="d-flex flex-row-reverse align-items-center justify-content-between icons icons2 me-3">
+        <a href="https:\\google.com" target="_blank" class="mx-2"><i class="bi bi-google"></i></a>
+        <a href="https:\\instagram.com" target="_blank" class="mx-2"><i class="bi bi-instagram"></i></a>
+        <a href="https:\\linkedin.com" target="_blank" class="mx-2"><i class="bi bi-linkedin"></i></a>
+        <a href="https:\\facebook.com" target="_blank" class="mx-2"><i class="bi bi-facebook"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="row border-top border-top-1 justify-content-center">
+    <div class="col-12 d-none d-xl-flex flex-row justify-content-start align-items-center  px-4 py-0 mt-4">
+      <p class="m-0">تمامی حقوق محفوظ است</p>
+    </div>
+  </div>
+  </div>
+<script src="./app.js"></script>
+    <!-- bootrstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,328 @@
+* {
+    font-family: "Noto Sans Arabic", sans-serif;
+  }
+  body{
+    scroll-behavior: smooth;
+  }
+  .nav-item {
+    padding: 0 !important;
+  }
+  .navbar-nav {
+    padding: 0 !important;
+  }
+  .navbar-brand img {
+    width: 200px !important;
+    height: 50px !important;
+    transform: scale(0.8);
+  }
+  .nav-item a {
+    font-size: 16px !important;
+    color: rgb(141, 141, 141) !important;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  .nav-link:hover {
+    color: #01578c !important;
+  }
+  .nav-item .active {
+    color: #01578c !important;
+  }
+  .nav-link:focus {
+    border: 1px dotted black;
+  }
+  .lastitem .nav-link:focus {
+    border: 0px dotted black;
+  }
+  .lastitem a {
+    background-color: #29d8db !important;
+    width: 180px !important;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.2s;
+  }
+  .lastitem a:hover {
+    background-color: #01578c !important;
+  }
+  .lastitem a {
+    border-style: none;
+    color: #fff !important;
+  }
+  .lastitem:hover a {
+    color: #fff !important;
+  }
+  .collapse {
+    background-color: rgb(255, 255, 255) !important;
+  }
+  .navbar-toggler {
+    background-color: #29d8db !important;
+    border-style: none !important;
+    box-shadow: none !important;
+    margin-left: 10px !important;
+    transform: scale(0.9);
+  }
+  .menu-btn-1 {
+    height: 32px;
+    width: 40px;
+    cursor: pointer;
+    position: relative;
+  }
+  .menu-btn-1 span {
+    transform: scale(0.7);
+  }
+  .menu-btn-1 span,
+  .menu-btn-1 span::before,
+  .menu-btn-1 span::after {
+    background: rgb(0, 0, 0);
+    border-radius: 1px;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    right: 0px;
+    margin-top: 13px;
+    transition: 0.3s ease-in-out;
+  }
+  .menu-btn-1 span::before {
+    margin-top: -12px;
+  }
+  
+  .menu-btn-1 span::after {
+    margin-top: 12px;
+  }
+  .menu-btn-1.active span {
+    background: transparent;
+  }
+  .menu-btn-1.active span::before {
+    margin-top: 0;
+    transform: rotate(45deg);
+  }
+  .menu-btn-1.active span::after {
+    margin-top: 0;
+    transform: rotate(-45deg);
+  }
+  .all-btn {
+    transform: scale(0.8);
+  }
+  .matnofsection1{
+    margin-top:280px;
+  }
+  .short-line {
+    width: 100px;
+    color: #fff !important;
+  }
+  .beauty {
+    font-size: 50px !important;
+    font-weight: bold;
+    color: #fff !important;
+  }
+  .lastitem a {
+    background-color: #29d8db !important;
+    width: 180px !important;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.2s;
+  }
+  .lastitem a:hover {
+    background-color: #01578c !important;
+  }
+  .lastitem a {
+    border-style: none;
+    color: #fff !important;
+  }
+  .lastitem:hover a {
+    color: #fff !important;
+  }
+  .text {
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 3px;
+  }
+  textarea {
+    transition: 0.2s;
+  }
+  textarea:focus {
+    outline-color: #29d8db;
+  }
+  .dentistoneimage {
+    width: 400px;
+    height: 500px;
+    border-radius: 16px;
+    position: relative;
+    right: 50px;
+  }
+  .boxofdentistimage {
+    width: 220px;
+    height: 360px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    position: absolute;
+    top: 300px !important;
+  }
+  .dentisttwoimage {
+    width: 200px;
+    height: 280px;
+    border-radius: 16px;
+    position: absolute;
+    top: -15px;
+  }
+  .paragraph {
+    color: rgb(100, 100, 100);
+    width: 82% !important;
+  }
+  .doubbleleft {
+    background-color: #29d8db;
+    border-radius: 12px !important;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+  }
+  .doubbleleft:hover {
+    color: #fff;
+  }
+  .lastitem2 a {
+    width: 180px !important;
+    height: 50px !important;
+    line-height: 35px;
+  }
+  .lastitem2:hover a {
+    background-color: #fff !important;
+    color: #01578c !important;
+  }
+  .dentimg {
+    width: 50px !important;
+  }
+  .colcard {
+    box-shadow: 0px 0px 15px rgb(206, 206, 206);
+    transition: 0.3s;
+    border-radius: 15px !important;
+  }
+  .colcard:hover {
+    box-shadow: 0px 0px 18px rgb(126, 126, 126);
+  }
+  .section5 {
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+  .section6 {
+    background-color: #f6f9f9;
+    padding-bottom: 150px;
+  }
+  .cardofidea {
+    border-radius: 15px !important;
+    box-shadow: 0px 0px 15px rgb(219, 219, 219);
+  }
+  .cardofidea img {
+    width: 110px;
+    border-radius: 50%;
+    border: 7px solid rgba(16, 108, 160, 0.15);
+  }
+  .icons a {
+    font-size: 18px !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #29d8db;
+    text-align: center;
+    line-height: 45px;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #fff;
+  }
+  .icons a:hover {
+    background-color: #01578c;
+    color: #fff;
+  }
+  .section7 {
+    padding-bottom: 120px !important;
+  }
+  .footer {
+    background-color: #f6f9f9;
+  }
+  .map {
+    box-shadow: 0px 0px 25px #747474;
+  }
+  
+  .icons2 a {
+    font-size: 15px !important;
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: #29d8db;
+    text-align: center;
+    line-height: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #fff;
+  }
+  .icons2 a:hover {
+    background-color: #01578c;
+    color: #fff;
+  }
+  @media screen and (max-width: 600px) {
+    .nav-item {
+      border-top: 1px solid rgb(241, 241, 241);
+      border-bottom: 1px solid rgb(241, 241, 241);
+    }
+    .collapse {
+      background-color: rgb(248, 248, 248) !important;
+    }
+    .navbar-brand img {
+      transform: scale(0.8);
+      margin-right: -20px !important;
+    }
+  
+    .nav-item a {
+      border: 0px solid rgb(255, 255, 255);
+    }
+    textarea {
+      width: 305px !important;
+      height: 90px !important;
+    }
+    .dentistoneimage {
+      position: relative;
+      right: 0 !important;
+      margin: 0px !important;
+      transform: scale(0.98);
+      height: 400px;
+    }
+    .dentisttwoimage {
+      height: 320px !important;
+    }
+    .boxofdentistimage {
+      transform: scale(0.6);
+      right: -33px !important;
+      top: 180px !important;
+      height: 390px;
+    }
+    .twoparagraph {
+      margin-top: 180px !important;
+    }
+    .paragraph {
+      width: 100% !important;
+    }
+    .row300 {
+      margin-bottom: 50px !important;
+    }
+    .twoparagraph {
+      margin-top: 100px !important;
+    }
+    .khadamat {
+      width: 100% !important;
+    }
+    .map {
+      height: 200px !important;
+    }
+    .logo {
+      width: 250px !important;
+      transform: translateY(-20px);
+    }
+    .matnofsection1{
+    margin-top:100px !important;
+  }
+  }
+  @media screen and (min-width: 601px) {
+    .pa {
+      width: 75% !important;
+    }
+  }
